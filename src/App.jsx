@@ -20,13 +20,14 @@ function App() {
       <div className="absolute top-0 left-0 z-[-2] h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse at 50% -20%, rgba(120, 119, 198, 0.3), rgba(255, 255, 255, 0))]"></div>
       </div>
       <div className='container mx-auto px-8'>
-        <Navbar />
+        <Navbar/>
         <Hero />
         <About/>
         <Technologies/>
         <Experiance/>
         <Project/>
         <Contact/>
+        
       </div>
     </div>
   );
